@@ -1,0 +1,62 @@
+.services {
+    background-color: #060b26;
+    height: 100vh;
+}
+
+.top_text {
+    padding-top: 30px;
+}
+.h2_text {
+    text-align: center;
+    color: white;
+}
+
+.about_company {
+    display: flex;
+}
+.p_about {
+    color: white;
+    padding: 25px;
+    font-size: 19px;
+    width: 68%;
+}
+.img {
+    width: 320px;
+    height: 280px;
+    margin-left: 90px;
+}
+
+.h3_items {
+    color: white;
+    text-align: center;
+}
+.nothing {
+    width: 37%;
+    border-bottom: 1px solid rgb(140, 60, 255);
+    margin: 0 auto;
+    height: 1px;
+}
+.services_items {
+    width: 35%;
+}
+.items {
+    margin-top: 25px;
+}
+.item {
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+.item_icon {
+    color: rgb(140, 60, 255);
+    font-size: 30px;
+}
+.p_item {
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.katalog {
+    display: flex;
+}

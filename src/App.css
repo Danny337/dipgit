@@ -6,9 +6,7 @@
   padding: 0;
   font-family: 'Lato', sans-serif;
 }
-.home,
-.services,
-.price,
+
 .contacts {
   display: flex;
   height: 90vh;
@@ -57,4 +55,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+:root {
+  --bc_color: #060b26;
 }

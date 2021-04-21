@@ -1,0 +1,40 @@
+.printer_price {
+    background-color: var(--bc_color);
+}
+.printer_info {
+    width: 65%;
+    margin: 0 auto;
+}
+.printer_text {
+    color: white;
+    padding-top: 30px;
+}
+.red_text_main {
+    color: rgb(140, 60, 255);
+    font-size: 26px;
+    border-bottom: 1px solid rgb(140, 60, 255);;
+}
+.red_text {
+    color: rgb(140, 60, 255);
+    font-size: 23px;
+}
+.printer_text ul {
+    padding-left: 17px;
+}
+.printer_textImg {
+    display: flex;
+    margin-top: 50px;
+}
+.printer_jpg {
+    height: 300px;
+    width: 420px;
+}
+.printer_t {
+    width: 50%;
+}
+.printer_t li {
+    font-weight: bold;
+}
+.printer_img {
+    margin-left: 50px;
+}

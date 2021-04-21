@@ -1,0 +1,48 @@
+.pc_rehab {
+    background-color: var(--bc_color);
+}
+.pc__info {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.pc__text {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+.pc_tt {
+    padding-top: 33px;
+}
+.info_text {
+    color: white;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.info_item {
+    display: flex;
+}
+.info_item p {
+    padding-top: 13px;
+}
+.info_b_p {
+    width: 60%;
+    margin-top: 25px;
+}
+.info_textImg {
+    display: flex;
+}
+.info_img {
+    height: 270px;
+    width: 360px;
+}
+
+.pc_div_table {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.pc_div_table table {
+    width: 55%;
+}

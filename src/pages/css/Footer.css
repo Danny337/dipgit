@@ -1,0 +1,36 @@
+/* footer */
+.footer {
+    background-color: #060b26;
+    border-top: 1px solid rgb(140, 60, 255);
+}
+footer {
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+.logo {
+    margin-right: 25px;
+}
+.footer__icon {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.inst {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nomer_footer {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+/* footer */
+
+@media screen and (max-width: 470px) {
+    .nomer_footer {
+        display: none;
+    }
+}

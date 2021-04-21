@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+
 import './Navbar.css'
-import { Link } from 'react-router-dom'
+import logo from '../../images/logos.png'
+// import { Link } from 'react-router-dom'
 import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 import { SidebarData } from './SidebarData';
@@ -14,9 +17,20 @@ function Navbar() {
         <>
         <IconContext.Provider value={{color: '#fff'}}>
           <div className="navbar">
-              <Link to='#' className='menu-bars'>
-                <FaIcons.FaBars onClick={showSidebar} />
-              </Link>
+
+              <div className="navbar_list">
+                <Link to='#' className='menu-bars'>
+                  <FaIcons.FaBars onClick={showSidebar} />
+                </Link>
+              </div>
+
+              <div className="navbar_phone">
+                <p>+7(999)-228-13-37</p>
+              </div>
+              
+              <div className="navbar__logo">
+                <Link to="/"><img src={logo} alt="" /></Link> 
+              </div>
           </div>
 
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>

@@ -5,27 +5,57 @@ import * as IoIcons from 'react-icons/io'
 
 export const SidebarData = [
     {
-        title: 'Главная',
+        title: 'главная',
         path: '/',
         icon: <AiIcons.AiFillHome />,
         class: 'nav-text'
     },
     {
-        title: 'Ремонт пк',
+        title: 'переход',
         path: '/services',
+        icon: <FaIcons.FaHandsHelping />,
+        class: 'nav-text'
+    },
+    {
+        title: 'ремонт компьютеров',
+        path: '/pc',
+        icon: <FaIcons.FaLaptopCode />,
+        class: 'nav-text'
+    },
+    {
+        title: 'ремонт принтеров',
+        path: '/printer',
         icon: <AiIcons.AiFillTool />,
         class: 'nav-text'
     },
     {
-        title: 'Цены',
+        title: 'ремонт мониторов',
         path: '/price',
-        icon: <FaIcons.FaMoneyBillWave />,
+        icon: <AiIcons.AiFillTool />,
         class: 'nav-text'
     },
     {
-        title: 'Контакты',
+        title: 'ремонт телефонов',
+        path: '/price',
+        icon: <AiIcons.AiFillTool />,
+        class: 'nav-text'
+    },
+    {
+        title: 'ремонт ноутбуков',
+        path: '/price',
+        icon: <AiIcons.AiFillTool />,
+        class: 'nav-text'
+    },
+    {
+        title: 'контакты',
         path: '/contacts',
         icon: <FaIcons.FaAddressCard />,
+        class: 'nav-text'
+    },
+    {
+        title: 'оставить заявку',
+        path: '/request',
+        icon: <AiIcons.AiOutlineMail />,
         class: 'nav-text'
     },
 
