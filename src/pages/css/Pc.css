@@ -4,7 +4,8 @@
 .pc__info {
     display: flex;
     justify-content: center;
-    margin-left: 200px;
+    align-items: center;
+    width: 60%;
 }
 .pc__text {
     text-align: center;
@@ -32,10 +33,6 @@
 .info_textImg {
     display: flex;
 }
-.info_img {
-    height: 270px;
-    width: 360px;
-}
 
 .pc_div_table {
     padding-bottom: 40px;
@@ -45,4 +42,66 @@
 }
 .pc_div_table table {
     width: 55%;
+}
+
+.info_galki {
+    background-color: rgb(0, 0, 0);
+}
+.lel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_zaeb {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: black;
+}
+.zaeb_item {
+    display: flex;
+}
+.zaebalo_p {
+    font-size: 23px;
+}
+.zaeb_p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+.materinka {
+    display: flex;
+    justify-content: center;
+}
+.materinka_text {
+    width: 33%;
+    color: white;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.info_img {
+    height: 350px;
+    width: 440px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .materinka {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .materinka_text {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .info_img {
+        height: 220px;
+        width: 310px;
+        margin-left: 10px;
+    }
 }

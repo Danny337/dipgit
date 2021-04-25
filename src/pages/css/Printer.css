@@ -8,10 +8,11 @@
 .printer_text {
     color: white;
     padding-top: 30px;
+    font-size: 18px;
 }
 .red_text_main {
     color: rgb(140, 60, 255);
-    font-size: 26px;
+    font-size: 40px;
     border-bottom: 1px solid rgb(140, 60, 255);;
 }
 .red_text {
@@ -24,6 +25,7 @@
 .printer_textImg {
     display: flex;
     margin-top: 50px;
+    font-size: 18px;
 }
 .printer_jpg {
     height: 300px;

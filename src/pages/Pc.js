@@ -6,33 +6,69 @@ import msi from '../images/msi.png';
 export default function Pc() {
     return (
         <section className="pc_rehab">
-            <div className="feef">
-            <div className="pc__info">
+
+                <div className="main_pc">
+                    <div className="pc_logotext">
+                        <h2 className='pc__text'>Ремонт компьютеров</h2>
+                        <div className="nothing">&nbsp;</div>
+                    </div>
+
+                    <div className="main_zaeb">
+                        <div className="zaebalo">
+                            <p className="zaebalo_p">Мы предлагаем следующие виды работ:</p>
+                            <div className="zaeb_item">
+                                <img src={checkmark} alt="" className="checkmark" />
+                                <p className="zaeb_p">переустановку и обновление операционной системы;</p>
+                            </div>
+                            <div className="zaeb_item">
+                                <img src={checkmark} alt="" className="checkmark" />
+                                <p className="zaeb_p">установку и наладку нужного программного обеспечения, а так же проверка работоспособности уже установленных программ;</p>
+                            </div>
+                            <div className="zaeb_item">
+                                <img src={checkmark} alt="" className="checkmark" />
+                                <p className="zaeb_p">установку и обновление антивирусов, как платных так и бесплатных;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="materinka">
+                        <div className="materinka_text">
+                        <p>Даже если вы разбираетесь в компьютерной технике на уровне продвинутого пользователя не стоить самостоятельно пытаться починить компьютер в случае его поломки.Лучше доверить это дело профессионалам, таким которые работают в компании «X service»Срочный и недорогой ремонт копьютерной техники - это наша работа, которую мы делаем хорошо.Мы выезжаем на обслуживание в дома и офисы и на месте ремонтируем компьютеры и забираем технику в наш сервисный центр только в случае такой поломки, исправить которую в домашних условиях не представляется возможным.</p>
+                        </div>
+                        <div className="materinka_img">
+                            <img src={msi} alt="" className="info_img"/>
+                        </div>
+                    </div>
+                </div>
+            {/* <div className="pc__info">
                 <div className="info_text">
                     <h2 className='pc__text'>Ремонт копьютеров</h2>
                     <div className="nothing">&nbsp;</div>
+                    
+                    <div className="lel">
+                        <div className="info_galki">
+                            <p className="pc_tt">Мы предлагаем следующие виды работ:</p>
+                            <div className="info_item">
+                                <img src={checkmark} alt="" className="checkmark"/>
+                                <p>переустановку и обновление операционной системы;</p>
+                            </div>
+                            <div className="info_item">
+                                <img src={checkmark} alt="" className="checkmark"/>
+                                <p>установку и наладку нужного программного обеспечения, а так же проверка работоспособности уже установленных программ;</p>
+                            </div>
+                            <div className="info_item">
+                                <img src={checkmark} alt="" className="checkmark"/>
+                                <p>установку и обновление антивирусов, как платных так и бесплатных;</p>
+                            </div>
+                        </div>
 
-                    <p className="pc_tt">Мы предлагаем следующие виды работ:</p>
-                    <div className="info_item">
-                        <img src={checkmark} alt="" className="checkmark"/>
-                        <p>переустановку и обновление операционной системы;</p>
+                        <div className="info_textImg">
+                            <p className="info_b_p">Даже если вы разбираетесь в компьютерной технике на уровне продвинутого пользователя не стоить самостоятельно пытаться починить компьютер в случае его поломки.Лучше доверить это дело профессионалам, таким которые работают в компании «X service»Срочный и недорогой ремонт копьютерной техники - это наша работа, которую мы делаем хорошо.Мы выезжаем на обслуживание в дома и офисы и на месте ремонтируем компьютеры и забираем технику в наш сервисный центр только в случае такой поломки, исправить которую в домашних условиях не представляется возможным.</p>
+                            <img src={msi} alt="" className="info_img" />
+                        </div>
                     </div>
-                    <div className="info_item">
-                        <img src={checkmark} alt="" className="checkmark"/>
-                        <p>установку и наладку нужного программного обеспечения, а так же проверка работоспособности уже установленных программ;</p>
-                    </div>
-                    <div className="info_item">
-                        <img src={checkmark} alt="" className="checkmark"/>
-                        <p>установку и обновление антивирусов, как платных так и бесплатных;</p>
-                    </div>
-
-                    <div className="info_textImg">
-                        <p className="info_b_p">Даже если вы разбираетесь в компьютерной технике на уровне продвинутого пользователя не стоить самостоятельно пытаться починить компьютер в случае его поломки.Лучше доверить это дело профессионалам, таким которые работают в компании «X service»Срочный и недорогой ремонт копьютерной техники - это наша работа, которую мы делаем хорошо.Мы выезжаем на обслуживание в дома и офисы и на месте ремонтируем компьютеры и забираем технику в наш сервисный центр только в случае такой поломки, исправить которую в домашних условиях не представляется возможным.</p>
-                        <img src={msi} alt="" className="info_img" />
-                    </div>
-                </div>
-                <div className="info_img"></div>
-            </div>
+                </div> 
+            </div> */}
 
             <div className="pc__price">
                 <div className="topText">
@@ -100,7 +136,6 @@ export default function Pc() {
                     </table>
                 </div>
 
-            </div>
             </div>
         </section>
     )

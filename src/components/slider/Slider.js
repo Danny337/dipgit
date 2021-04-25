@@ -6,6 +6,7 @@ import pc from '../../images/pctech.jpg';
 import photo1 from '../../images/chin1.jpg';
 import photo2 from '../../images/dudechin.jpg';
 import photo3 from '../../images/motherplat.jpg';
+import sliderpc from '../../images/sliderpc.jpg';
 import Services from '../../pages/Services';
 
 export default class Slider extends Component {
@@ -15,9 +16,9 @@ export default class Slider extends Component {
                 <Carousel>
 
                     <Carousel.Item>
-                        <Link to="/services">
+                        <Link to="/pc">
                             <img
-                                src={photo1} alt="Ms" className="d-block w-100"
+                                src={sliderpc} alt="Ms" className="d-block w-100"
                             />
                         </Link>
                     </Carousel.Item>
