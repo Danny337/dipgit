@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Printer.css'
 import printer from '../images/printer.jpg';
+import epson from '../images/epson.png';
 
 export default function Printer() {
     return (
@@ -29,7 +30,7 @@ export default function Printer() {
                             <p>В целом, независимо от характера и сложности неисправностей, мы гарантируем, что ремонт лазерных принтеров пройдет в полном соответствии с необходимыми техническими процессами и в максимально сжатые сроки.</p>
                         </div>
                         <div className="printer_img">
-                            <img src={printer} alt="" className="printer_jpg" />
+                            <img src={epson} alt="" className="printer_jpg" />
                         </div>
                     </div>
 

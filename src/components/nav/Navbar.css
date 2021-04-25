@@ -89,5 +89,8 @@ span {
     .navbar__logo {
         display: none;
     }
+    .menu-bars {
+        margin-left: 0px;
+    }
 }
 /* @media */

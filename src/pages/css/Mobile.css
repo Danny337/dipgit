@@ -1,0 +1,33 @@
+.remont_mobile {
+    display: flex;
+    justify-content: center;
+    background-color: #060b26;
+}
+.mobile_mainBlock {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.mobile_iphone {
+    height: 400px;
+    width: 430px;
+}
+.mobile_text {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #cac7d6;
+}
+.mob_pm {
+    font-size: 40px;
+}
+.mob_pp {
+    font-size: 18px;
+}
+
+.price_mobile {
+    background-color: #060b26;
+}

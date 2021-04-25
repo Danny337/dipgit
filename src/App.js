@@ -12,6 +12,7 @@ import Slider from './components/slider/Slider';
 import Request from './pages/Request';
 import Pc from './pages/Pc';
 import Printer from './pages/Printer';
+import Mobile from './pages/Mobile';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/services' component={Services} />
           <Route path='/pc' component={Pc} />
           <Route path='/printer' component={Printer} />
+          <Route path='/mobile' component={Mobile} />
           <Route path='/price' component={Price} />
           <Route path='/contacts' component={Contacts} />
           <Route path='/request' component={Request} />

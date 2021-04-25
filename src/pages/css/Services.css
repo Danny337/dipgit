@@ -1,6 +1,5 @@
 .services {
     background-color: #060b26;
-    height: 100vh;
 }
 
 .top_text {
@@ -59,4 +58,93 @@
 
 .katalog {
     display: flex;
+}
+
+/* LEEESGOOO */
+.services_topBlock {
+    display: flex;
+    justify-content: center;
+    background-color: black;;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.topBlock_text {
+    width: 40%;
+    padding-top: 20px;
+    color: #cac7d6;
+}
+.services_mainText {
+    font-size: 40px;
+}
+.services_purpText {
+    color: rgb(140, 60, 255);
+    font-size: 24px;
+}
+.services_jtext {
+    font-size: 18px;
+}
+.services_pc {
+    width: 360px;
+    height: 350px;
+}
+
+/* dadadada */
+.services_select {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: #060b26;
+}
+.select_text {
+    text-align: center;
+    color: #cac7d6;
+    font-size: 30px;
+}
+.select_items_block{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.select_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.select_item_text {
+    color: #cac7d6;
+    padding-top: 10px;
+}
+.select_item_text_p1 {
+    font-size: 24px;
+    color:rgb(140, 60, 255);
+}
+.select_item_text_p2 {
+    font-size: 18px;
+}
+
+.miniImg {
+    width: 150px;
+    height: 150px;
+}
+.select_item_text a {
+    text-decoration: none;
+    color: #cac7d6;
+}
+.select_item_text a:hover {
+    color:rgb(140, 60, 255);
+}
+
+@media screen and (max-width: 670px) {
+    .services_topBlock {
+        flex-direction: column;
+    }
+    .topBlock_text {
+        width: 100%;
+        padding: 15px;
+    }
+    .select_items_block {
+        flex-direction: column;
+    }
 }

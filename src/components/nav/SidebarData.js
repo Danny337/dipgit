@@ -5,55 +5,55 @@ import * as IoIcons from 'react-icons/io'
 
 export const SidebarData = [
     {
-        title: 'главная',
+        title: 'Главная',
         path: '/',
         icon: <AiIcons.AiFillHome />,
         class: 'nav-text'
     },
     {
-        title: 'переход',
+        title: 'О компании',
         path: '/services',
         icon: <FaIcons.FaHandsHelping />,
         class: 'nav-text'
     },
     {
-        title: 'ремонт компьютеров',
+        title: 'Ремонт компьютеров',
         path: '/pc',
         icon: <FaIcons.FaLaptopCode />,
         class: 'nav-text'
     },
     {
-        title: 'ремонт принтеров',
+        title: 'Ремонт принтеров',
         path: '/printer',
-        icon: <AiIcons.AiFillTool />,
+        icon: <AiIcons.AiFillPrinter />,
         class: 'nav-text'
     },
+    // {
+    //     title: 'Ремонт мониторов',
+    //     path: '/price',
+    //     icon: <FaIcons.FaDesktop />,
+    //     class: 'nav-text'
+    // },
     {
-        title: 'ремонт мониторов',
-        path: '/price',
-        icon: <AiIcons.AiFillTool />,
+        title: 'Ремонт телефонов',
+        path: '/mobile',
+        icon: <FaIcons.FaMobileAlt />,
         class: 'nav-text'
     },
+    // {
+    //     title: 'Ремонт ноутбуков',
+    //     path: '/price',
+    //     icon: <FaIcons.FaLaptop />,
+    //     class: 'nav-text'
+    // },
     {
-        title: 'ремонт телефонов',
-        path: '/price',
-        icon: <AiIcons.AiFillTool />,
-        class: 'nav-text'
-    },
-    {
-        title: 'ремонт ноутбуков',
-        path: '/price',
-        icon: <AiIcons.AiFillTool />,
-        class: 'nav-text'
-    },
-    {
-        title: 'контакты',
+        title: 'Контакты',
         path: '/contacts',
         icon: <FaIcons.FaAddressCard />,
         class: 'nav-text'
     },
     {
-        title: 'оставить заявку',
+        title: 'Оставить заявку',
         path: '/request',
         icon: <AiIcons.AiOutlineMail />,
         class: 'nav-text'

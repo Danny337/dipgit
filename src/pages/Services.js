@@ -1,11 +1,98 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa'
 import servicesimg from '../images/service.png'
+import pc from '../images/legacy.png'
+import minipc from '../images/minipc.png'
+import miniiphone from '../images/miniiphone.png'
+import miniprinter from '../images/miniprinter.png'
 import './css/Services.css';
+import { Link } from 'react-router-dom';
 
 function Services() {
     return (
-        <div className="services">
+        <div className="ssservices">
+            <div className="services_topBlock">
+                <div className="topBlock_text">
+                    <p className="services_mainText">Ремонт Техники</p>
+                    <p className="services_purpText">Ремонт и Обслуживание</p>
+                    <p className="services_jtext">Любая техника нуждается в периодическом ремонте или апргейде, для усовершенствования работоспособности и улучшения производительности. Ваш компьютер - не исключение. Мы готовы осуществить ремонт компьютерной техники в Москве любой сложности. От замены клавиатуры до BGA компонентного ремонта. Всё это в сервисном центре Keyboard service делаем с гарантией 100 дней. Стоимость ремонта варьируется по моделям и зависит от года выпуска и характера неисправности.</p>
+                </div>
+                <div className="topBlock_img">
+                    <img src={pc} alt="" className="services_pc" />
+                </div>
+            </div>
+
+            <div className="services_select">
+
+                <div className="select_text">
+                    <p>Популярные виды ремонтов:</p>
+                </div>
+                <div className="nothing">&nbsp;</div>
+
+                <div className="select_items">
+                    <div className="select_items_block">
+                        <div className="select_item">
+                            <div className="select_item_miniimg">
+                                <img src={minipc} alt="" className="miniImg" />
+                            </div>
+                            {/* <div className="home_item_icon style_icon">
+                                <FaIcons.FaRubleSign className="icon_advantage" />
+                            </div> */}
+                            <div className="select_item_text">
+                                <p className="select_item_text_p1">Компьютер</p>
+                                <Link to="/pc"><p className="select_item_text_p2">Чистка, замена термопасты</p></Link>
+                                <Link to="/pc"><p className="select_item_text_p2">Установка Windows</p></Link>
+                                <Link to="/pc"><p className="select_item_text_p2">Замена видеокарты</p></Link>
+                            </div>
+                        </div>
+
+                        <div className="select_item">
+                            <div className="select_item_miniimg">
+                                <img src={miniiphone} alt="" className="miniImg" />
+                            </div>
+                            {/* <div className="home_item_icon style_icon">
+                                <FaIcons.FaLaughWink className="icon_advantage" />
+                            </div> */}
+                            <div className="select_item_text">
+                                <p className="select_item_text_p1">Телефон</p>
+                                <Link to="/mobile"><p className="select_item_text_p2">Замена стекла</p></Link>
+                                <Link to="/mobile"><p className="select_item_text_p2">Замена аккумулятора</p></Link>
+                                <Link to="/mobile"><p className="select_item_text_p2">Чистка после воды</p></Link>
+                            </div>
+                        </div>
+                        
+                        <div className="select_item">
+                            <div className="select_item_miniimg">
+                                <img src={miniprinter} alt="" className="miniImg" />
+                            </div>
+                            {/* <div className="home_item_icon style_icon">
+                                <FaIcons.FaThumbsUp className="icon_advantage" />
+                            </div> */}
+                            <div className="select_item_text">
+                                <p className="select_item_text_p1">Принтер</p>
+                                <Link to="/printer"><p className="select_item_text_p2">Ремонт платы форматера</p></Link>
+                                <Link to="/printer"><p className="select_item_text_p2">Чистка лазера</p></Link>
+                                <Link to="/printer"><p className="select_item_text_p2">Прошивка принтера</p></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    )
+}
+
+export default Services
+
+{/* <div className='services'>
+            <h1>Ремонт и обслуживание:</h1>
+            <a href="/price"><h2>Компьютеров</h2></a> 
+            <h2>Телефонов</h2>
+            <h2>Принтеров</h2>
+    </div> */
+
+    /* <div className="services">
             <div className="top_text">
                 <h2 className="h2_text">Услуги ремонта и обслуживания техники в сервисном центре <br/> "Keyboard service"</h2>
             </div>
@@ -38,6 +125,10 @@ function Services() {
                             <FaIcons.FaLaptop className="item_icon" />
                             <p className="p_item">ремонт принтеров</p>
                         </div>
+                        <div className="item">
+                            <FaIcons.FaLaptop className="item_icon" />
+                            <p className="p_item">ремонт принтеров</p>
+                        </div>
                     </div>
                 </div>
 
@@ -61,20 +152,15 @@ function Services() {
                             <FaIcons.FaLaptop className="item_icon" />
                             <p className="p_item">обслуживание сканеров</p>
                         </div>
+                        <div className="item">
+                            <FaIcons.FaLaptop className="item_icon" />
+                            <p className="p_item">обслуживание сканеров</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className="right_photo"></div>
-        </div>
-    )
+        </div> */
+        
 }
-
-export default Services
-
-{/* <div className='services'>
-            <h1>Ремонт и обслуживание:</h1>
-            <a href="/price"><h2>Компьютеров</h2></a> 
-            <h2>Телефонов</h2>
-            <h2>Принтеров</h2>
-        </div> */}

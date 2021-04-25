@@ -126,10 +126,14 @@ function Home() {
             </div>
 
             <div className="home_icons">
-                <h1 className="home_h1">Наши услуги</h1>
+                <h2 className='home__text'>что мы предлагаем</h2>
                 <div className="nothing">&nbsp;</div>
 
-                <div className="home_icons__items">
+                <div className="button_div">
+                    <Link to="/services"><button class="slide_from_right">Каталог услуг</button></Link>
+                </div>
+
+                {/* <div className="home_icons__items">
                     <Link to="/pc">
                     <div className="home__item">
                         <p className="home_p">ремонт компьютеров</p>
@@ -146,7 +150,7 @@ function Home() {
                         <FaIcons.FaPrint className="home__icon" />
                     </div>
                     </Link>
-                </div>
+                </div> */}
             </div>
             
         </div>
