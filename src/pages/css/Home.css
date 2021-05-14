@@ -40,12 +40,12 @@
 }
 .title_advantage {
     color: rgb(140, 60, 255);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 .description_advantage {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @media (max-width: 991px) {
@@ -88,6 +88,7 @@
     text-align: center;
     color: white;
     padding-top: 25px;
+    font-size: 37px;
 }
 .home_pant {
     display: flex;
