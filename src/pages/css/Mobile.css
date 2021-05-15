@@ -31,3 +31,19 @@
 .price_mobile {
     background-color: #060b26;
 }
+
+@media screen and (max-width: 1065px) {
+    .mobile_mainBlock {
+        flex-direction: column;
+    }
+    .mobile_iphone {
+        height: 300px;
+        width: 330px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .mobile_iphone {
+        height: 200px;
+        width: 230px;
+    }
+}

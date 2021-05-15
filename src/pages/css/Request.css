@@ -1,11 +1,23 @@
 .req {
     background-color: #060b26;
-    height: 80vh;
 }
 .contact {
     padding-top: 50px;
 }
 .request_text {
+    font-size: 37px;
     text-align: center;
     color: white;
+}
+.request_p {
+    padding-top: 16px;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.req_span {
+    color: rgb(140, 60, 255);
+    margin-left: 0px;
 }

@@ -40,3 +40,34 @@
 .printer_img {
     margin-left: 50px;
 }
+
+@media screen and (max-width: 800px) {
+    .printer_t {
+        width: 90%;
+    }
+    .printer_textImg {
+        flex-direction: column;
+    }
+    .printer_img {
+        margin-left: 0px;
+    }
+    .printer_jpg {
+        height: 320px;
+        width: 420px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .printer_jpg {
+        height: 200px;
+        width: 320px;
+    }
+    .printer_info {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .printer_jpg {
+        height: 150px;
+        width: 270px;
+    }
+}
