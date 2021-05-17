@@ -4,9 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import pc from '../../images/pctech.jpg';
 
 import photo1 from '../../images/chin1.jpg';
-import photo2 from '../../images/dudechin.jpg';
-import photo3 from '../../images/motherplat.jpg';
-import sliderpc from '../../images/sliderpc.jpg';
+import photo2 from '../../images/chinit2.jpg';
+import photo3 from '../../images/motherplat2.jpg';
+import sliderpc from '../../images/sliderpc2.jpg';
 import Services from '../../pages/Services';
 
 export default class Slider extends Component {
