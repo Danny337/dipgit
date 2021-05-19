@@ -6,6 +6,7 @@ import msi from '../images/msi.png';
 import checkmark from '../images/checkmark.png';
 import logo from '../images/logos.png';
 import { Link } from 'react-router-dom';
+import Otzivi from '../components/otzivi/Otzivi';
 
 function Home() {
     return (
@@ -127,7 +128,10 @@ function Home() {
 
             <div className="home_icons">
                 <h2 className='home__text'>что мы предлагаем</h2>
-                <div className="nothing">&nbsp;</div>
+                <div className="downDown">
+                    <i className="down"></i>
+                </div>
+                {/* <div className="nothing">&nbsp;</div> */}
 
                 <div className="button_div">
                     <Link to="/services"><button class="slide_from_right">Каталог услуг</button></Link>
@@ -152,6 +156,8 @@ function Home() {
                     </Link>
                 </div> */}
             </div>
+
+            <Otzivi />
             
         </div>
     )

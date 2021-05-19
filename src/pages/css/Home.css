@@ -90,6 +90,13 @@
     padding-top: 25px;
     font-size: 37px;
 }
+.home_otziviH2 {
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    background-color: #060b26;
+    margin: 0px;
+}
 .home_pant {
     display: flex;
     color: white;
@@ -122,11 +129,25 @@
     margin: 0 auto;
     height: 1px;
 }
+i {
+  border: solid rgb(140, 60, 255);
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 18px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.downDown {
+    display: flex;
+    justify-content: center;
+}
 
 /* home_icons */
 .home_icons {
     background-color: #060b26;
-    padding-bottom: 35px;
+    padding-bottom: 17px;
 }
 .home_h1 {
     color: white;
