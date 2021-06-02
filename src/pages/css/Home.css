@@ -286,6 +286,10 @@ button.slide_from_right::after {
         width: 340px;
         height: 230px;
     }
+    .home_features {
+        background-color: #060b26;
+        padding: 10px;
+    }
 }
 
 /* media */
